@@ -35,9 +35,8 @@ img {
 }
 
 div {
-   /*plz figure out how to make a flexible height of at least 125px tall */
    padding: 20px;
-   border: solid 3px #ffffff;
+   border: 3px solid #ffffff;
    min-height: 125px;
 }
 
@@ -51,19 +50,24 @@ div {
    background-color: #ff0000;
    text-align: right;
    margin-left: 50px;
-   border-bottom: 2px;
-   border-left: 5px;
+   border-bottom: 2px solid #ffffff;
+   border-left: 5px solid #ffffff;
+   border-top-style: none;
+   border-right-style: none;
 }
 
 .blue {
    background-color: #0000ff;
    text-align: left;
    margin-right: 50px;
-   border-right: 5px;
-   border-top: 2px;
+   border-right: 5px solid #ffffff;
+   border-top: 2px solid #ffffff;
+   border-bottom-style: none;
+   border-left-style: none;
 }
 
-h2.blue p.blue {
+.blue h2,
+.blue p {
    color: #C4C4C4;
 }
 
@@ -71,11 +75,13 @@ h2.blue p.blue {
    background-color: #ffff00;
    text-align: right;
    margin-left: 50px;
-   border-left: 5px;
-   border-bottom: 2px;
+   border-left: 5px solid #ffffff;
+   border-bottom: 2px solid #ffffff;
+   border-top-style: none;
+   border-right-style: none;
 }
 
-p.yellow {
+.yellow p {
    color: #707070;
 }
 
@@ -83,8 +89,10 @@ p.yellow {
    background-color: #00EB00;
    text-align: left;
    margin-right: 50px;
-   border-right: 5px;
-   border-top: 2px;
+   border-right: 5px solid #ffffff;
+   border-top: 2px solid #ffffff;
+   border-bottom-style: none;
+   border-left-style: none;
 }
 
 footer {
